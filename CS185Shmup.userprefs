@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CrystalScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ShieldScript.cs" Line="16" Column="13" />
+      <File FileName="Assets\Scripts\PlayerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameManagerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TargetScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BulletScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HeartScript.cs" Line="26" Column="1" />
+      <File FileName="Assets\Scripts\CrystalScript.cs" Line="24" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

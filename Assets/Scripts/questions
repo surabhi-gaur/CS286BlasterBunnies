@@ -1,0 +1,37 @@
+- Make the initial levels faster. The game progresses too slowly and then becomes fast and cluttered all of a sudden.
+
+- A level counter could be helpful in telling people what stage of the game they are in
+
+- Modify screen space - player shouldn’t go into the screen. //restricted the player to 3,-3
+
+- The GUI needs to be better. //moved around the GUI so it fills the sides of the screen to show clearly where the boundry is
+
+- Testers liked mechanics and liked the last level.
+
+- Circle from the circular-movement enemy has a spawnner circle that needs to not show. //fixed
+
+- Player should have enough space in the barrage of bullets in the last level to weave through it. 
+
+- Hitbox of the player should be small so it doesn’t die as easily.
+
+- Friended bunnies need to not show up as boxes - what does the integrated bunny force looks like. //we need images for the friendlies
+
+- Player should move faster.
+
+- Speed of different elements in the game needs to be differentiable: (speed of) aggressive > balance (=player speed) > defense.
+
+- As we have the C key to gift items, we should have one similar for people using the other set of arrow controls. //not really needed because we will be using the joysticks during the gallery
+
+- Try not to use the mouse clicks for Start menu - everything on the keyboard //fixed you can now press enter to start the game i can change the button to work with the start button of the controller
+
+- Try QuickTime compression feature for making sound files smaller without compromising on the quality.
+
+- Make sure the elements on the screen will not blend with the background.
+
+- Enemies can be destroyed when they are still offscreen. Don’t know if we should restrict that. //fixed bullets get destroyd as they leave the screen
+
+- Maybe powerup shooting ability? Shooting remains the same throughout.
+
+- Items should move down slowly so the player doesn’t have to always move to the top of the screen (when the item is at the top of the screen...) while its trying to not get killed - the enemy concentration is higher there. If the item moves down real slow, it becomes easier for the player to pick.
+
+- Need to have a better intro/ main screen: need to put in the basic controls in there, especially the ones for the item pickup and shoot.
