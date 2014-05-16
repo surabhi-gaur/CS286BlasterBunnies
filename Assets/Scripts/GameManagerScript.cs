@@ -1,4 +1,4 @@
-﻿﻿using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class GameManagerScript : MonoBehaviour {
@@ -85,20 +85,18 @@ public class GameManagerScript : MonoBehaviour {
 					prevLife = player.life;
 					prevPos = player.transform.position;
 					prevState = currentState;
-					currentState = GameState.Friends; // change state to next level
-					Application.LoadLevel(6); // load the next scene
+					currentState = GameState.Phase3; // change state to next level
+					redLoyalty = 0;
+					blueLoyalty = 0;
+					greenLoyalty = 0;
+					Application.LoadLevel(3);
 				}
 			}
 			break;
 		case GameState.Friends:
 			playing = false;
 			if(Input.GetKeyDown("1")) {
-				prevState = currentState;
-				currentState = GameState.Phase3; // change state to next level
-				redLoyalty = 0;
-				blueLoyalty = 0;
-				greenLoyalty = 0;
-				Application.LoadLevel(3);
+
 			}
 			break;
 		case GameState.Phase3: // phase3
